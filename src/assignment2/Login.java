@@ -1,3 +1,5 @@
+package assignment2;
+
 import java.util.Scanner;
 
 public class Login {
@@ -8,7 +10,7 @@ public class Login {
             final int MAX_ATTEMPTS = 3;
             Scanner scanner = new Scanner(System.in);
 
-            // Login System
+            // assignment2.Login System
             boolean loggedIn = false;
             for (int attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
                 System.out.print("Enter email: ");
